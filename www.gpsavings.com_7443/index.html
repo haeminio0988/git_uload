@@ -1,0 +1,37 @@
+<html>
+<head>
+<title>homepage</title>
+<meta http-equiv="Content-Type" content="text/html; charset=euc-kr">
+<meta http-equiv="cache-control" content="no-cache">
+<LINK REL="SHORTCUT ICON" HREF="/favicon.ico">
+</head>
+<script language="javascript">
+	//location.href="workPopup.html";
+  
+	var filter = "win16|win32|win64|mac";
+	var mobileArr = new Array("iPhone", "iPod", "BlackBerry", "Android", "Windows CE", "LG", "MOT", "SAMSUNG", "SonyEricsson");
+	var pcBool = true;
+	
+	if(navigator.platform) {
+	  if(filter.indexOf(navigator.platform.toLowerCase()) < 0) {
+	  	//mobile
+	  	pcBool = false;
+	  }
+	}
+	
+	for(var mobile in mobileArr) {
+	  if(navigator.userAgent.match(mobileArr[mobile]) != null) {
+	  	//mobile
+	    pcBool = false;
+	    break;
+	  }
+	}
+	
+	if(pcBool) {
+		location.href="/index.jsp";
+	} else {
+	  location.href="http://m.gpsavings.com";
+	}
+</script>
+</html>
+

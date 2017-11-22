@@ -1,0 +1,94 @@
+.main { padding: 0; }
+
+.main .quick { display:inline-block; overflow:hidden; background:#e7e3d7;}
+.main .quick ul { display:inline-block; }
+.main .quick li {width:130px; height:105px; padding:0 15px; margin:5px 15px 0 0; border-right:1px dotted #c3bdaf; text-align:center; font-size:12px;}
+.main .quick li.last {border:0;}
+.main .quick li a span.quick_img {display:block; border:1px solid #c7c7c7; position:relative; overflow:hidden; width:124px; height:54px; padding:2px;}
+.main .quick li a span.quick_img img {position:absolute; top:50%; left:50%; margin:-29px 0 0 -64px;}
+.main .quick li a span.quick_txt {margin-top:1px; display:block; color:#7f6e5a; line-height:15px;}
+.main .quick li a:hover span.quick_img {padding:0; border:3px solid #9c948f;}
+.main .quick li a:hover span.quick_txt {font-weight:bold;}
+
+.main .bar5 { position: absolute; left: 185px; top: 12px; background: url("../img/main/main_08.jpg") no-repeat; height: 11px; width: 11px; }
+.main .main_left { width: 258px; height: 89%; float: left; border-right: 1px solid #dbdbdb; }
+.main .main_left .main_lecent { width: 200px; height: 100%; margin: 0 auto; padding-top: 30px; }
+.main .main_left .main_lecent .main_news { width: 100%; height: 24px; border-bottom: 1px dashed #cfcfcf; }
+.main .main_left .main_lecent .main_news li { width: 67px; float: left; position: relative; }
+.main .main_left .main_lecent .main_news li span.bar3 { position: absolute; right: 7px; top: 3px; background: #c2c2c2; height: 11px; width: 1px; }
+.main .main_left .main_lecent .main_news li span.bar4 { position: absolute; right: -67px; top: 4px; background: url("../img/main/main_08.jpg") no-repeat; height: 11px; width: 11px; }
+.main .main_left .main_lecent .main_news_list  { margin: 10px 0; }
+.main .main_left .main_lecent .main_news_list li { height: 25px; }
+.main .main_left .main_lecent .main_news_list li a { font: normal 12px "Dotuim"; color: #a9a9a9; }
+.main .main_left .main_lecent .main_bgbor { position: relative; height: 26px; padding-top: 9px; background: url("../img/main/main_14.jpg") no-repeat left top; }
+
+.main_left .main_lecent .main_side_btn {border:1px solid #cfcfcf; border-left:0; border-right:0;}
+.main_left .main_lecent .main_side_btn li {border-bottom:1px dotted #cfcfcf;}
+.main_left .main_lecent .main_side_btn li.last {border:0;}
+
+.main .main_left .main_lecent .main_tab { border-bottom: 1px solid #cfcfcf; }
+.main .main_left .main_lecent .main_tab th { width: 65px; height: 20px; border: 1px solid white; font: bold 12px "Dotum"; background: #ff8a00; color: white; }
+.main .main_left .main_lecent .main_tab td { width: 65px; height: 20px; border: 1px solid white; background: #f5f5f5; text-align: center; font: normal 12px "Dotum"; color: #9d9d9d; }
+.main .main_left .main_lecent .main_tat td { border-bottom: 1px solid #dedede; }
+.main .main_left .main_lecent .main_tas { width: 200px; height: 85px; border-collapse:collapse; border-spacing: 0; }
+.main .main_left .main_lecent .main_tas td { padding-left: 9px; border: 1px solid #cbc1b6; background: #ffefdc; }
+.col { position: absolute; z-index:5; left: 268px; bottom: 70px }
+.col ul li { float: left }
+.main .main_min { position:relative; z-index:3; width: 750px; height: 800px; float: left; background: url("../img/main/main_bg.jpg") no-repeat right top; }
+.main .main_min .baro { position:absolute; top:740px; left:5px; width:100%; text-align:center }
+.main .main_min .baro li { float:left; position:relative; padding:0 26px}
+.main .main_min .baro li a {display:inline-block; height:106px; overflow:hidden}
+.main .main_min .baro li a:hover img{margin:-106px 0 0;}
+.main .main_min .baro li span.bar {height:34px; width:1px; position:absolute; top:6px; left:0}
+
+.main .main_min .baro2 { position:absolute; top:555px; left:5px; width:100%; text-align:center }
+.main .main_min .baro2 li { float:left; position:relative; padding:0 16px}
+.main .main_min .baro2 li a {display:inline-block; height:180px; overflow:hidden}
+.main .main_min .baro2 li span.bar {height:34px; width:1px; position:absolute; top:6px; left:0}
+
+.main .main_min .top_menu {position:absolute; top:30px; right:0px;}
+.main .main_min .top_menu li {float:left;}
+.main .main_min .top_menu li a {vertical-align:top;}
+.main .main_min .top_menu li span {width:1px; height:4px; margin:4px 8px 0; background:#dfdfdf; display:inline-block; vertical-align:top;}
+
+.main .main_footer { position:relative; z-index:4; width:100%; float:left; }
+.main .main_footer .banner { left:5px; width:100%; text-align:center }
+.main .main_footer .banner li { float:left; position:relative; padding:0 26px}
+.main .main_footer .banner li span.bar {height:67px; width:1px; position:absolute; top:6px; left:0}
+
+.main .tabbbs {position:relative}
+.main .tabbbs ul {display:block}
+.main .tabbbs ul li {}
+
+.main .tabbbs .onetab,
+.main .tabbbs .twotab {}
+.main .tabbbs ul,
+.main .tabbbs ul {padding:25px 0 0; display:none}
+.main .tabbbs .on ul,
+.main .tabbbs .on ul {display:block}
+.main .tabbbs p a:first-child {overflow:hidden; height:13px;}
+.main .tabbbs p a:first-child:hover img,
+.main .tabbbs .on p a:first-child img {margin:-14px 0 0;}
+.main .tabbbs p {position:absolute; top:0}
+.main .tabbbs p .bar5 {display:none; top:0; overflow:hidden; text-indent:-1000%; font-size:0;}
+.main .tabbbs .on .bar5 {display:block;}
+.main .tabbbs .onetab p {left:0}
+.main .tabbbs .twotab p {left:60px}
+
+.main .tabbbs .onetab .bar5 {left:185px}
+.main .tabbbs .twotab .bar5 {left:125px}
+
+.movebnrbox { width:100%; height:102px; overflow:hidden; zoom:1; position:relative; }
+.movebnr { width: 80%;height:150px;position:absolute;left:10%;top;0px;margin:0 0 0 100px; }
+.movebnr ul { overflow:hidden;list-style:none;margin:0;padding:0;width:6000px;height:80%;right:-800px; }
+.movebnr li { overflow:hidden;float:left; }
+.movebnr li a:hover { background:#efefef; }
+.movebnr li a span.quick_img { display:block; border:1px solid #c7c7c7; position:relative; overflow:hidden; width:124px; height:54px; padding:2px;}
+.movebnr li a span.quick_img img { position:absolute;top:50%;left:50%;margin:-29px 0 0 -64px;}
+.movebnr li a span.quick_txt { margin-top:15px;display:block;color:#7f6e5a;line-height:15px;}
+.movebnr li a:hover span.quick_img { padding:0; border:3px solid #9c948f;}
+.movebnr li a:hover span.quick_txt { font-weight:bold;}
+
+.bnrbtn_prev { margin:0px;position:absolute;left:50px;top:13px;z-index:5; }
+.bnrbtn_next { margin-right:-10px;position:absolute;right:50px;top:13px;z-index:5; }
+.bnrbtn_close { position:absolute;right:20px;bottom:0px; }
